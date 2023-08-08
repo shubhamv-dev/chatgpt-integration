@@ -1,0 +1,43 @@
+.footer {
+    background: #F8FAFF;
+    /* max-width: 1920px; */
+    width: 100%;
+    padding: 14px 0;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* height: 70px;
+    border: 1px solid red; */
+}
+
+.footerInnerContainer {
+    max-width: 1320px;
+    width: 100%;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+
+.privacy {
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (max-width: 767px) {
+    .copyright {
+        text-align: center;
+    }
+
+    .privacy {
+        justify-content: center;
+    }
+}

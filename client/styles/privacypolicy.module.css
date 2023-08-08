@@ -1,0 +1,148 @@
+.headingdiv {
+    margin-top: 40px;
+  }
+  
+  .heading {
+    color: #333;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 275px;
+    margin: 0 auto 54px;
+  }
+  
+  .paragraph {
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 32px;
+  }
+  
+  .subheading {
+    color: #4586c6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+    padding-top: 28px;
+  }
+  
+  .subsubheading {
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+  }
+  
+  .paragraph-light {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: flex-start;
+    margin-bottom: 29px;
+  }
+  
+  .number {
+    color: #666;
+    font-family: "Montserrat, sans-serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* margin-right: 10px; */
+    padding-top: 1px;
+    min-width: 30px;
+  }
+  
+  .main {
+    padding-bottom: 148px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .gapBWFooter {
+    height: 171px;
+  }
+  
+  @media (max-width: 767px) {
+    .headingdiv {
+      margin-top: 30px;
+    }
+    .heading {
+      font-size: 24px;
+      margin: 0 auto 20px;
+      font-weight: 400;
+    }
+  
+    .paragraph {
+      color: #333;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .subheading {
+      color: #4586c6;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 10px;
+      padding-top: 20px;
+    }
+  
+    .subsubheading {
+      color: #333;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+    }
+  
+    .paragraph-light {
+      font-family: "Open Sans", sans-serif;
+      display: flex;
+      color: #666;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      justify-content: flex-start;
+      margin-bottom: 20px;
+    }
+  
+    .number {
+      color: #666;
+      font-family: "Montserrat, sans-serif";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      /* margin-right: 10px; */
+      padding-top: 1px;
+      min-width: 30px;
+    }
+    .gapBWFooter {
+      height: 80px;
+    }
+  }

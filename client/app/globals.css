@@ -1,0 +1,440 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #F8F9FB !important;
+
+}
+
+/* .container{
+  max-width: 1920px !important;
+  width: 100%;
+} */
+
+.header nav .right-nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.buttons .free-btn {
+  background-color: #E83F49;
+  font-size: 16px;
+  color: white;
+  /* padding: 11px 20px; */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  height: 44px;
+  border: none;
+  gap: 21px;
+}
+
+/* FAQ Page Css */
+
+.container .faq_heading {
+  color: #333333;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 18px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.container .faq_questions {
+  color: #333333;
+  font-size: 26px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.container .faq_inner_container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.container .faq_answers {
+  color: #666;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.container .faq_section {
+  margin-bottom: 201px;
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+}
+
+/* Login Page Css */
+
+.auth-fluid .auth-fluid-form-box {
+  max-width: 480px;
+  border-radius: 0;
+  z-index: 2;
+  padding: 3rem 3rem;
+  background-color: #ffffff;
+}
+
+.form-check-input:checked {
+  color: #fff !important;
+  border-color: #6658dd !important;
+  background-color: #6658dd !important;
+}
+
+.auth-fluid .auth-fluid-right {
+  padding: 6rem 3rem;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.auth-user-testimonial {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+}
+
+.auth-user-testimonial p.lead {
+  font-size: 1.125rem;
+  margin: 0 auto 20px auto;
+  max-width: 700px;
+}
+
+.eye_icon {
+  margin-top: -10px;
+  margin-right: 16px;
+  color: #6c757d;
+}
+
+input#formBasicEmail::placeholder,
+input#formBasicPassword::placeholder {
+  color: #abadaf;
+}
+
+.forgot_password {
+  color: #abadaf;
+  font-size: 13px;
+}
+
+.forgot_password:hover {
+  color: #87888a;
+}
+
+.eyeicon_div {
+  background: #e9edf1;
+  height: 37px;
+  width: 55px;
+}
+
+.input-group-text {
+  width: 55px;
+  height: 37px;
+  position: absolute;
+  right: 0;
+  top: 32px;
+  border-radius: 0px !important;
+}
+
+input,
+input:focus {
+  color: #6c757d !important;
+}
+
+.loginsignupdiv.form-check input#formBasicCheckbox {
+  border-radius: 0px !important;
+}
+
+.signup {
+  margin-bottom: 6rem;
+}
+
+
+/* signup page css  */
+
+.signup .loginheadings h3 {
+  white-space: pre-wrap;
+  overflow: visible;
+  /* font-family: var(--font_default); */
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--color_text_default);
+  line-height: 1.4;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  opacity: 1;
+  align-self: center;
+  min-width: 0;
+  max-width: 420px;
+  order: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.signup .signUp_formLabel {
+  white-space: pre-wrap;
+  overflow: visible;
+  /* font-family: poppins; */
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.4;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  opacity: 1;
+  align-self: center;
+  max-width: 420px;
+  order: 1;
+  min-height: 0;
+  height: max-content;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+
+.signup .signUp_formInput {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e6ef;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333 !important;
+  padding: 0 10px;
+  opacity: 1;
+  -webkit-transition: border-color 200ms ease;
+  -moz-transition: border-color 200ms ease;
+  -o-transition: border-color 200ms ease;
+  -ms-transition: border-color 200ms ease;
+  transition: border-color 200ms ease;
+  align-self: center;
+
+  max-width: 420px;
+  order: 6;
+  min-height: 50px;
+  max-height: 50px;
+  height: 50px;
+  flex-grow: 1;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.signup .signUp_formInput::placeholder {
+  color: #6c757d !important;
+}
+
+.signup .signUp_formInput:focus {
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+.signup .signUp_registerBtn {
+  background-color: rgb(74, 37, 225);
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-box-shadow: 0px 7px 30px -10px rgba(var(--color_primary_default_rgb), 0.1);
+  -moz-box-shadow: 0px 7px 30px -10px rgba(var(--color_primary_default_rgb), 0.1);
+  box-shadow: 0px 7px 30px -10px rgba(var(--color_primary_default_rgb), 0.1);
+  padding: 12px 24px;
+  opacity: 1;
+  -webkit-transition: background 200ms ease;
+  -moz-transition: background 200ms ease;
+  -o-transition: background 200ms ease;
+  -ms-transition: background 200ms ease;
+  transition: background 200ms ease;
+  cursor: pointer;
+  align-self: center;
+  max-width: 420px;
+  width: 100%;
+  order: 13;
+  min-height: 50px;
+  height: max-content;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  z-index: 2;
+}
+
+.signup .signUp_registerBtn:hover {
+  background-color: rgb(74, 37, 225) !important;
+}
+
+.signup .loginsignupdiv {
+  white-space: pre-wrap;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.signup .loginsignupdiv:hover {
+  text-decoration: underline;
+}
+
+.signup .loginsignupdiv .loginLink {
+  text-decoration: none;
+}
+
+.signup .loginsignupdiv .loginLink:hover {
+  text-decoration: underline;
+}
+
+.signup .signupInnerfirst {
+  max-width: 420px;
+  width: 100%;
+  /* border: 2px solid; */
+  overflow: hidden;
+}
+
+.signup .loginforminnerdiv {
+  width: 100%
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow:none !important;
+}
+
+@media (max-width: 991px) {
+  .container .faq_heading {
+    margin-top: 40px;
+    margin-bottom: 8px;
+  }
+
+  .container .faq_section {
+    display: flex;
+    gap: 20px;
+  }
+
+  .signup .loginheadings h3 {
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+
+  /* FAQ media query  */
+  .container .faq_heading {
+    color: #333333;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+  .container .faq_questions {
+    font-size: 16px;
+  }
+
+  .container .faq_answers {
+    font-size: 16px;
+  }
+
+  .container .faq_section {
+    gap: 15px;
+    margin-bottom: 100px;
+  }
+
+  .signup .loginheadings h3 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .loginleftdiv {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .loginforminnerdiv input {
+    border-radius: 8px !important;
+  }
+
+  .signup {
+    margin-bottom: 100px;
+  }
+
+  .navbar-toggler-icon {
+    width: 1.2em !important;
+    /* border: 2px solid red; */
+  }
+
+  button.navbar-toggler {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+}

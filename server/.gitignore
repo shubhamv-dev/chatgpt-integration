@@ -1,0 +1,53 @@
+
+# de.js / Express.js specific/
+node_modules/
+dist/
+build/
+
+# Environment variables
+
+# Logs
+logs/
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Editor-specific
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Testing
+coverage/
+
+# Build artifacts and temporary files
+*.tmp
+*.tmp.*
+*.swp
+*.bak
+
+# Environment configuration
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Output of `npm run build` or `npm run compile`
+# lib/
+# *.js
+
+# Output of `npm run build` or `npm run compile` for TypeScript
+# dist/*.js
+
+# Output of `npm run build` or `npm run compile` for TypeScript
+tsconfig*.json
+
+
